@@ -36,7 +36,7 @@ function App() {
       <AppBar className="App" sx={{ backgroundColor: "green" }}>
           <Toolbar>
             {/* <Button onClick={()=>navigate("/")} color="inherit">SIGNIN</Button> */}
-            <Button onClick={()=>navigate("/signup")} color="inherit">SIGNUP</Button>
+            <Button onClick={()=>navigate("/")} color="inherit">HOME</Button>
             <Button onClick={()=>navigate("/forgot-password")} color="inherit">FORGOT</Button>
             <Button sx={{ marginLeft: "auto" }} onClick={() => Logout()}color="inherit">Logout</Button>
           </Toolbar>

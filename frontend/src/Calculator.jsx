@@ -180,7 +180,7 @@ function Calculator() {
                 {
                     result ? <div className="card-footer text-end text-muted price">
                         <button type="button" className="btn btn-warning btn-floating" onClick={handleDownload}>
-                            <i className="fas fa-download"></i>
+                            <i className="fas fa-download">Download as Pdf</i>
                         </button>
                     </div> : null
                 }

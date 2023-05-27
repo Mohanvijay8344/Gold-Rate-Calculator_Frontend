@@ -14,6 +14,12 @@
   box-sizing: 0 25px 25px rgba(0, 0, 0, 0.2);
   background: rgba(159, 146, 146, 0.4);
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
 /* 
 backdrop-filter: blur(3px);
     box-sizing: 0 25px 25px rgba(225, 225, 225, 0.2);

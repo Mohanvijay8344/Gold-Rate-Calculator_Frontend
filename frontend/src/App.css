@@ -17,3 +17,15 @@
     align-items: center;
     margin-top: 80px;
   }
+
+  h2{
+    color:red;
+  }
+
+  ul{
+    color:rgb(6, 37, 209)
+  }
+
+  .col-lg-12{
+    margin-top: 50px;
+  }
