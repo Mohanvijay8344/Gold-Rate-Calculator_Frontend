@@ -1,0 +1,1 @@
+export const LINKS= "https://day-42-task-backend.onrender.com"

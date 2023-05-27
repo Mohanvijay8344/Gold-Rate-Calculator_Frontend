@@ -39,21 +39,6 @@ function Nav({ Name }) {
                 {/* <!-- Topbar Navbar --> */}
                 <ul className="navbar-nav ml-auto">
                     <div className="topbar-divider d-none d-sm-block"></div>
-                    <li className="nav-item dropdown no-arrow">
-                        <a
-                            className="nav-link dropdown-toggle"
-                            id="userDropdown"
-                            role="button"
-                            href='##'
-                        >
-                            <span className="mr-2 d-none d-lg-inline text-gray-600 small text-black">
-                                {Name}
-                            </span>
-                            <img style={styles} className="img-profile rounded-circle" src="./avatar.png" alt="Avatar" onClick={()=>{Logout()}}/>
-                            
-                        </a>
-                    </li>
-
                 </ul>
             </nav>
         </>

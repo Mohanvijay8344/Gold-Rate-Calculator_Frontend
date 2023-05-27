@@ -9,6 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.2",
+    "@mui/styled-engine-sc": "^5.12.0",
     "axios": "^1.3.4",
     "chart.js": "^4.2.1",
     "chartjs-plugin-streaming": "^2.0.0",
@@ -19,6 +24,7 @@
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
+    "styled-components": "^5.3.11",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.7.3",
     "useref": "^1.4.4"
